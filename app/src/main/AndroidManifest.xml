@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="coding.insight.login2">
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.dubaitourismtravel.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dubaitourismtravel.login"></activity>
+        <activity android:name="com.example.dubaitourismtravel.MainActivity"></activity>
+        <activity android:name="com.example.dubaitourismtravel.secondActivity"></activity>
+        <activity android:name="com.example.dubaitourismtravel.threeActivity"></activity>
+        <activity android:name="com.example.dubaitourismtravel.forthActivity"></activity>
+        <activity android:name="com.example.dubaitourismtravel.skybar"></activity>
+        <activity android:name="com.example.dubaitourismtravel.dashboard2"></activity>
+        <activity android:name="com.example.dubaitourismtravel.burj"></activity>
+        <activity android:name="com.example.dubaitourismtravel.palm2"></activity>
+        <activity android:name="com.example.dubaitourismtravel.restraunt"></activity>
+        <activity android:name="com.example.dubaitourismtravel.Arab"></activity>
+        <activity android:name="com.example.dubaitourismtravel.Aquarism"></activity>
+        <activity android:name="com.example.dubaitourismtravel.mall"></activity>
+        <activity android:name="com.example.dubaitourismtravel.village"></activity>
+
+
+
+    </application>
+</manifest>

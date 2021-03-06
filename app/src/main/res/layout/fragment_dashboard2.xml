@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context="com.example.dubaitourismtravel.dashboard2" android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+
+
+    -<RelativeLayout android:layout_height="fill_parent"
+    android:layout_width="fill_parent" android:background="#EEEEEE">
+
+
+    -<LinearLayout android:layout_height="200dp"
+    android:layout_width="match_parent" android:background="@drawable/places"
+    android:orientation="vertical" android:gravity="center">
+
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="DUBAI Places With Details"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="210dp">
+
+
+    <LinearLayout android:layout_height="180dp"
+        android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="160dp"
+    android:layout_width="0dp"
+    android:layout_marginRight="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_weight="1">
+
+
+    -<RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/burj"
+        android:layout_centerInParent="true"
+        android:id="@+id/burj"> </ImageView>
+
+    <TextView
+        android:id="@+id/profileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="end"
+        android:text="Burj Khalifa"
+        android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnburj"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+    -<androidx.cardview.widget.CardView
+    android:layout_height="160dp"
+    android:layout_width="0dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    app:cardCornerRadius="20dp"
+    android:layout_weight="1">
+
+    -<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/palm"
+        android:layout_centerInParent="true"
+        android:id="@+id/rute"> </ImageView>
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="end"
+        android:text="Palm"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/btnrout"/>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="180dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+
+    -<androidx.cardview.widget.CardView
+    android:layout_height="160dp"
+    android:layout_width="0dp"
+
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+
+    android:layout_weight="1">
+
+
+    -<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/arab_city"
+        android:layout_centerInParent="true"
+        android:id="@+id/history"> </ImageView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="end"
+        android:text="AL-Arab"
+        android:textColor="#fff" />
+
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/btnhistory"/>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+    -<androidx.cardview.widget.CardView
+    android:layout_height="160dp"
+    android:layout_width="0dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+
+    android:layout_weight="1">
+
+
+    -<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/aquarism"
+        android:layout_centerInParent="true"
+        android:id="@+id/feedback"> </ImageView>
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="end"
+        android:text="Aquarism"
+        android:textColor="#fff" />
+    <Button android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/btnfeedbak"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+
+    -
+
+
+
+    <LinearLayout android:layout_height="180dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+
+    -<androidx.cardview.widget.CardView
+    android:layout_height="160dp" android:layout_width="0dp"
+    android:layout_marginRight="8dp" android:layout_marginLeft="8dp"
+     android:layout_weight="1">
+
+
+    <RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/mall"
+        android:layout_centerInParent="true"
+        android:id="@+id/setting">
+    </ImageView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtsetting"
+        android:layout_below="@+id/setting">
+    </TextView>
+
+        <Button
+            android:id="@+id/btnsetting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/transparent"
+            android:gravity="end"
+            android:text="Dubai Mall"
+            android:textColor="#FFF" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+    -<androidx.cardview.widget.CardView
+    android:layout_height="160dp"
+    android:layout_width="0dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+
+    android:layout_weight="1">
+
+
+    -<RelativeLayout android:layout_height="match_parent"
+
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/village"
+        android:layout_centerInParent="true"
+        android:id="@+id/support">
+    </ImageView>
+
+        <TextView
+            android:id="@+id/txtsupport"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/support"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="-94dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp"
+            android:text="Dubai Village"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/btnsupport"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>
